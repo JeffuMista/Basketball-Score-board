@@ -1,0 +1,67 @@
+@import 
+url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+    background-color: #ECE4B7;
+}
+#container {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    text-align: center;
+    background-color: #1B244A;
+    text-align: center;
+}
+#away-card, #home-card {
+    text-align: center;
+}
+#away-score, #home-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 90px;
+    background-color: #080001;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 120px;
+    width: 200px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+#home, #guest {
+    font-size: 50px;
+    color: #EEEEEE;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+ #home-card { 
+    padding-left: 65px;
+} 
+button {
+    padding: 10px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-size: 15px;
+}
+#home-team {
+    color: purple;
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+#away-team {
+    color: royalblue;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+#home-team, #away-team {
+    margin-bottom: 50px;
+}
